@@ -7,6 +7,7 @@ COPY hack/dockerfile/install/proxy.installer /
 RUN apt-get update && apt-get install -y \
     bash \
     btrfs-tools \
+    libbtrfs-dev \
     ca-certificates \
     cmake \
     gcc \
